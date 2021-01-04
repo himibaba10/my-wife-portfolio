@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: 'Redressed', cursive;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.orange-text {
+    color: #ee6e2f;
+}
+.top-banner {
+    background: url("f74330fd31e979324fcc6e3b7c281114.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+img {
+    width: 100%;
+    margin-top: 90px;
+}
+.dream-banner {
+    background: url("2095688.jpg");
+    height: 500px;
+}
+.first-letter::first-letter {
+    font-size: 45px;
+    color: #f00087b5;
+}
+.bio-data {
+    height: 500px;
+    background: url("ex\ bg.jpg");
+}
+.shadow {
+    box-shadow: 15px 15px 40px grey;
+}
+#border1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #7ed8e1, orange);
+    border-image-slice: 1;
+}
+#border2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #ff0000a1, rgb(247, 91, 244));
+    border-image-slice: 1;
+}
+.white {
+    background-color: #73d3f0;
+}
+.about {
+    font-size: 50px;
+    margin-top: 0;
+    text-align: center;
+    color: mediumvioletred;
+}
+footer {
+    font-size: 12px;
+    text-align: center;
+    background: url("ex\ bg.jpg");
+}
